@@ -158,16 +158,16 @@ build out any helper methods if needed.
   - Uncomment lines 141-159 in the viewer_test file
   - _hint: will need a way to remember all viewer objects_
 
-### Bonus: For any invalid inputs raise an `Exception`.
+### IF NOT RAISING EXCEPTIONS:
 
-- First, **comment out** the following lines
+- First, **uncomment** the following lines
   - **viewer_test.py**
     - lines 27-28, 39-40, and 43-44
   - **movie_test.py**
     - lines 24-25, 36-37
   - **review_test.py**
     - lines 27-28, 31-32, 49-50, 53-54, 89-90, and 122-123
-- Then, **uncomment** the following lines in the test files
+- Then, **comment out** the following lines in the test files
   - **viewer_test.py**
     - lines 31-32, 47-48, and 51-52
   - **movie_test.py**
